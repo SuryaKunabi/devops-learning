@@ -8,19 +8,7 @@ It provides a systematic approach for developing high-quality software by dividi
 
 ### Simple SDLC Flow
 
-Planning
-   ↓
-Requirements Analysis
-   ↓
-Design
-   ↓
-Development
-   ↓
-Testing
-   ↓
-Deployment
-   ↓
-Maintenance
+Planning -> Requirements Analysis -> Design -> Development -> Testing -> Deployment -> Maintenance
 
 # 🔄 Phases of SDLC
 
@@ -108,17 +96,6 @@ Testing may include:
 * User Acceptance Testing
 
 The testing team identifies bugs and reports them to the development team.
-Developer
-    ↓
-Write Code
-    ↓
-Testing
-    ↓
-Bug Found?
- ┌──────┴──────┐
-Yes            No
- ↓              ↓
-Fix Bug       Ready for Deployment
 
 ## 6. Deployment
 
@@ -132,20 +109,12 @@ Deployment can be performed on:
 * Containers
 
 ### Example
-Application
-      ↓
-AWS / Azure / Google Cloud
-      ↓
-Production Server
-      ↓
-    Users
+Application -> AWS / Azure / Google Cloud -> Production Server -> Users
 
 ## 7. Maintenance
-
 After deployment, the application requires continuous monitoring and maintenance.
 
 Activities may include:
-
 * Fixing bugs
 * Improving performance
 * Adding new features
@@ -194,25 +163,7 @@ This can result in:
 
 DevOps improves this process by creating collaboration and automation throughout the SDLC.
 
-Plan
- ↓
-Code
- ↓
-Build
- ↓
-Test
- ↓
-Release
- ↓
-Deploy
- ↓
-Operate
- ↓
-Monitor
- ↓
-Feedback
- ↓
-Plan Again
+Plan -> Code ->  Build -> Test -> Release -> Deploy -> Operate -> Monitor -> Feedback -> Plan Again
 
 This creates a continuous development and delivery cycle.
 
@@ -241,15 +192,7 @@ Continuous Integration means developers regularly merge their code into a shared
 
 When new code is pushed:
 
-Developer
-    ↓
-GitHub Repository
-    ↓
-Automatic Build
-    ↓
-Automatic Testing
-    ↓
-Build Successful
+Developer -> GitHub Repository -> Automatic Build -> Automatic Testing -> Build Successful
 
 This helps detect problems early.
 
@@ -257,15 +200,7 @@ This helps detect problems early.
 
 Continuous Delivery and Continuous Deployment automate the process of releasing software.
 
-Code
- ↓
-Build
- ↓
-Test
- ↓
-Deploy
- ↓
-Production
+Code -> Build -> Test -> Deploy -> Production
 
 This reduces manual work and makes software releases faster and more reliable.
 
@@ -334,54 +269,16 @@ DevOps improves the SDLC process by:
 Suppose a developer makes changes to a website.
 
 ### Traditional Process
-Developer writes code
-        ↓
-Manually sends code to testing
-        ↓
-Testing team checks
-        ↓
-Operations team manually deploys
-        ↓
-Application goes live
-
-This process can take a long time.
+Developer writes code -> Manually sends code to testing -> Testing team checks -> Operations team manually deploys -> Application goes live -> This process can take a long time.
 
 ### DevOps Process
-Developer pushes code to GitHub
-        ↓
-CI/CD Pipeline starts automatically
-        ↓
-Application is built
-        ↓
-Automated tests are executed
-        ↓
-Docker image is created
-        ↓
-Application is deployed
-        ↓
-Monitoring checks application health
+Developer pushes code to GitHub -> CI/CD Pipeline starts automatically -> Application is built -> Automated tests are executed -> Docker image is created ->   Application is deployed -> Monitoring checks application health
 
 This makes the software delivery process faster, automated, and more reliable.
 
 # 🛠 Example DevOps Workflow
-Developer
-    ↓
-Git / GitHub
-    ↓
-CI Tool
-(Jenkins / GitHub Actions)
-    ↓
-Build Application
-    ↓
-Automated Testing
-    ↓
-Docker Container
-    ↓
-Deployment
-(AWS / Kubernetes)
-    ↓
-Monitoring
-(Prometheus / Grafana)
+Developer -> Git / GitHub -> CI Tool(Jenkins / GitHub Actions) -> Build Application -> Automated Testing -> Docker Container -> Deployment(AWS / Kubernetes) -> Monitoring(Prometheus / Grafana)
+
 
 📚 Key Takeaways
 *SDLC is the complete process used to develop and maintain software.
