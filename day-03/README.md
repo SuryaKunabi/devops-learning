@@ -1,5 +1,3 @@
----
-
 ## 1. What is a Server?
 
 A **server** is a computer or system that provides services, resources, or data to other computers called **clients** over a network.
@@ -221,5 +219,4 @@ Multiple workloads can share the same physical server.
 * **Virtual Machine** → Uses virtualized hardware provided by a hypervisor.
 * **Virtualization** → Improves resource utilization, scalability, isolation, and flexibility.
 
----
 
