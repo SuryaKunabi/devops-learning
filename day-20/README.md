@@ -1,7 +1,7 @@
 # GitHub Actions – Hosted & Self-Hosted Runners
 Project Link - https://github.com/SuryaKunabi/GitHub-Actions.git
 
-## 📌 What is GitHub Actions?
+## What is GitHub Actions?
 
 GitHub Actions is a CI/CD automation platform provided by GitHub. It allows you to automatically **build, test, and deploy** your application when events occur in a GitHub repository.
 
