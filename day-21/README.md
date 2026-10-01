@@ -438,29 +438,6 @@ Container
 Consistent Environment
 ```
 
-Containers provide a lightweight and portable way to package and run applications.
-
-For DevOps, the important learning path is:
-
-```text
-Containers
-    ↓
-Docker
-    ↓
-Dockerfile
-    ↓
-Images
-    ↓
-Networking
-    ↓
-Volumes
-    ↓
-Docker Compose
-    ↓
-CI/CD
-    ↓
-Kubernetes
-```
 
 
 
